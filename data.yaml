@@ -1,0 +1,17 @@
+# Path to training/validation/test images
+train: train_2/train2/images
+val: train_2/val2/images
+test: test1/images
+
+# Number of classes
+nc: 7
+
+# Class names
+names:
+  0: OxygenTank
+  1: NitrogenTank
+  2: FirstAidBox
+  3: FireAlarm
+  4: SafetySwitchPanel
+  5: EmergencyPhone
+  6: FireExtinguisher
